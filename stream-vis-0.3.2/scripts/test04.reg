@@ -1,0 +1,27 @@
+<Script>
+<Table>
+<Name>S1</Name>
+<isStream>true</isStream>
+<isBase>true</isBase>
+<Attr>
+<Name>A</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+</Table>
+<Table>
+<Name>S2</Name>
+<isStream>true</isStream>
+<isBase>true</isBase>
+<Attr>
+<Name>A</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+</Table>
+<Query>
+<QueryString>Rstream(select * from S1 [now], S2 where S1.A = S2.A);</QueryString>
+<isNamed>false</isNamed>
+<hasOutput>true</hasOutput>
+</Query>
+</Script>

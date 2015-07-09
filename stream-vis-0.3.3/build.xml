@@ -1,0 +1,48 @@
+<project name="STREAM" default="lib" basedir=".">
+
+  <!-- set global properties for this build -->
+  <property name = "src"    value = "src" />
+  <property name = "build"  value = "build" />
+  <property name = "lib"    value = "lib" />
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+
+    <!-- Create the lib directory for the jar" -->
+    <mkdir dir="${lib}"/>
+
+  </target>
+
+  <target name="compile" depends="init">
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}" source="1.4"/>
+  </target>
+
+  <target name="lib" depends="compile">    
+
+    <copy todir="${build}/stream/vis/view/img">
+      <fileset dir="${src}/stream/vis/view/img"/>
+    </copy>
+
+    <copy todir="${build}/stream/vis/util" file="visualizer.ini"/>
+
+    <!-- Put everything in ${build} into the DSMS-${DSTAMP}.jar file -->
+    <jar jarfile="${lib}/STREAMvis.jar" basedir="${build}">
+      <manifest>
+        <attribute name = "Main-Class" 
+                   value = "stream.vis.view.ClientView"
+        />
+      </manifest>
+    </jar>
+  </target>
+ 
+  <target name="clean">
+     <delete dir="${lib}"/>
+     <delete dir="${build}"/>
+  </target>
+
+</project>

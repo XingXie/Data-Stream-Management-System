@@ -1,0 +1,22 @@
+<Script>
+<Table>
+<Name>S</Name>
+<isStream>true</isStream>
+<isBase>true</isBase>
+<Attr>
+<Name>G</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+<Attr>
+<Name>A</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+</Table>
+<Query>
+<QueryString>select * from S [Partition by G rows 1];</QueryString>
+<isNamed>false</isNamed>
+<hasOutput>true</hasOutput>
+</Query>
+</Script>

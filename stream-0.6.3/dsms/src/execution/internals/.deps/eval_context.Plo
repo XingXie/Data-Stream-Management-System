@@ -1,0 +1,10 @@
+eval_context.lo: eval_context.cc \
+ ../../../../dsms/include/execution/internals/eval_context.h \
+ ../../../../dsms/include/execution/internals/tuple.h \
+ ../../../../dsms/include/common/debug.h
+
+../../../../dsms/include/execution/internals/eval_context.h:
+
+../../../../dsms/include/execution/internals/tuple.h:
+
+../../../../dsms/include/common/debug.h:

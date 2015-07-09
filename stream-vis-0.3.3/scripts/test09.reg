@@ -1,0 +1,17 @@
+<Script>
+<Table>
+<Name>R</Name>
+<isStream>false</isStream>
+<isBase>true</isBase>
+<Attr>
+<Name>A</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+</Table>
+<Query>
+<QueryString>select * from R;</QueryString>
+<isNamed>false</isNamed>
+<hasOutput>true</hasOutput>
+</Query>
+</Script>

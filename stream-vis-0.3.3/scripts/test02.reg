@@ -1,0 +1,37 @@
+<Script>
+<Table>
+<Name>S</Name>
+<isStream>true</isStream>
+<isBase>true</isBase>
+<Attr>
+<Name>A</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+</Table>
+<Query>
+<QueryString>select A/2, A from S where (S.A/2)*2 = S.A;</QueryString>
+<isNamed>true</isNamed>
+<hasOutput>true</hasOutput>
+</Query>
+<Table>
+<Name>VS</Name>
+<isStream>true</isStream>
+<isBase>false</isBase>
+<Attr>
+<Name>A</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+<Attr>
+<Name>B</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+</Table>
+<Query>
+<QueryString>select A, B from VS;</QueryString>
+<isNamed>false</isNamed>
+<hasOutput>true</hasOutput>
+</Query>
+</Script>

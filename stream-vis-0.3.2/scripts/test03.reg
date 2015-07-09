@@ -1,0 +1,27 @@
+<Script>
+<Table>
+<Name>S1</Name>
+<isStream>true</isStream>
+<isBase>true</isBase>
+<Attr>
+<Name>A</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+</Table>
+<Table>
+<Name>S2</Name>
+<isStream>true</isStream>
+<isBase>true</isBase>
+<Attr>
+<Name>A</Name>
+<Type>0</Type>
+<Len>0</Len>
+</Attr>
+</Table>
+<Query>
+<QueryString>select * from S1 as X, S2 as Y where X.A=Y.A;</QueryString>
+<isNamed>false</isNamed>
+<hasOutput>true</hasOutput>
+</Query>
+</Script>

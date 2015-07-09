@@ -1,0 +1,13 @@
+syn_monitor.lo: syn_monitor.cc \
+ ../../../../dsms/include/execution/monitors/syn_monitor.h \
+ ../../../../dsms/include/execution/monitors/property_monitor.h \
+ ../../../../dsms/include/execution/monitors/property.h \
+ ../../../../dsms/include/common/debug.h
+
+../../../../dsms/include/execution/monitors/syn_monitor.h:
+
+../../../../dsms/include/execution/monitors/property_monitor.h:
+
+../../../../dsms/include/execution/monitors/property.h:
+
+../../../../dsms/include/common/debug.h:

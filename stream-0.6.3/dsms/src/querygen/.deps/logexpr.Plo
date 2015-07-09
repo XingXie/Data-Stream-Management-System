@@ -1,0 +1,20 @@
+logexpr.lo: logexpr.cc ../../../dsms/include/common/debug.h \
+ ../../../dsms/include/querygen/logop.h \
+ ../../../dsms/include/common/constants.h \
+ ../../../dsms/include/common/types.h ../../../dsms/include/common/aggr.h \
+ ../../../dsms/include/common/op.h \
+ ../../../dsms/include/metadata/table_mgr.h
+
+../../../dsms/include/common/debug.h:
+
+../../../dsms/include/querygen/logop.h:
+
+../../../dsms/include/common/constants.h:
+
+../../../dsms/include/common/types.h:
+
+../../../dsms/include/common/aggr.h:
+
+../../../dsms/include/common/op.h:
+
+../../../dsms/include/metadata/table_mgr.h:
