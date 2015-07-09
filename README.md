@@ -1,4 +1,4 @@
-# Data-Stream-Management-System
+# Multilevel-Data-Stream-Management-System
 
 This project complements my phd research: Multilevel Streaming Management System. The demo is developed based on Stanford Streaming project. My major work include:
 
