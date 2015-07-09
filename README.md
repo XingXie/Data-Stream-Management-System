@@ -20,6 +20,6 @@ Demo data is not totally uploaded because of size.
 
 And change the ~/.bashrc file.
 
-## how to run
+## How to run
 
 check [Standford Stream lab](http://infolab.stanford.edu/stream/)
