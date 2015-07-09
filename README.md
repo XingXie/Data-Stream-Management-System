@@ -8,6 +8,8 @@ This project complements my phd research: Multilevel Streaming Management System
 More details can be found in my [PhD thesis](http://discovery.library.colostate.edu/Record/DigiTool246397)
 Or you can send me email to request it.
 
+More extended paper can be found in my [google scholar page](https://scholar.google.com/citations?user=F1ABM20AAAAJ&hl=en)
+
 ## Note:
 
 Demo data is not totally uploaded because of size. 
