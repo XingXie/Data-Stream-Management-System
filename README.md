@@ -5,7 +5,7 @@ This project complements my phd research: Multilevel Streaming Management System
 1. Add security label and access control in streaming system
 2. Add computation sharing between queries in different levels
 
-More details can be found in my [PhD thesis](http://discovery.library.colostate.edu/Record/DigiTool246397)
+More details can be found in my [PhD thesis](https://dspace.library.colostate.edu/handle/10217/80188)
 Or you can send me email to request it.
 
 More extended paper can be found in my [google scholar page](https://scholar.google.com/citations?user=F1ABM20AAAAJ&hl=en)
